@@ -1,4 +1,7 @@
 # Subscripting
 print("Hello"[4])
 # Concatinating
-print("1,2,3"+ "4,5,6")
+# String
+print("123"+ "456")
+# Integer = whole number
+print(123 + 456)
