@@ -13,3 +13,8 @@ Length = len(name)
 
 
 print(Length)
+# make sure the variable names are descriptive and meaningful
+# dont have space in variable names
+# use underscore _ instead of space
+# variable names should not start with a number
+# variable names should not contain special characters like !, @, #, $, %, ^, &, *, (, ), -, +, =, {, }, [, ], |, \, :, ;, ", ', <, >, ,, ., ?, /
