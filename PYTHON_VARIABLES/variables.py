@@ -10,4 +10,6 @@ print(len(input("What is your name?")))
 # now we are going to split these three steps into three different lines of code
 name = input("What is your name?")
 Length = len(name)
+
+
 print(Length)
