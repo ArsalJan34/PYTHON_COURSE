@@ -14,11 +14,18 @@ print(type(True))
 # name = (input("Enter your name: "))
 # print(len(name))
 
-name = (input("Enter your name here : "))
-Length = len(name)
+# name = (input("Enter your name here : "))
+# Length = len(name)
 # print("The length of your name is : " + Length)
 # so the above code will give us error that can only concatenate str not int to str
 # lets check what data types are these
-print(type(name))
-print(type(Length))
+# print(type(name))
+# print(type(Length))
 # so here it will print name as string and Length as the int
+# so how can we convert the datatypes
+# we do this
+name = input("Enter Your name here : ")
+Length = len(name)
+print("The length of your name is : " + str(Length))
+# Now it will print the length of the name correctly
+# here we used str to convert the integer
