@@ -17,3 +17,7 @@ print(2**2)
 # *
 # +
 # -
+print(3+3*3-3/3)
+# so here it solve as DMAS
+print((3+3)*3-3/3)
+# Here it solve the bracket first the + ones because of pedmas rule
