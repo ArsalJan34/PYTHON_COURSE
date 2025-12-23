@@ -22,3 +22,10 @@ print(score)
 # print("your score is : " + score)
 print(f"your score is : {score}")
 # Now this will give the right value output without causing any error
+height = 1.78
+weight = 54
+Age = 21
+print(f"Your height is : {height} Your age is : {Age} Your weight is : {weight}" )
+print(6 + 4 / 2 - (1 * 2))
+a = int("5") / int(2.7)
+print(a)
