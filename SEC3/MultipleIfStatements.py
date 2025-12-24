@@ -13,7 +13,6 @@ if height > 120:
   else:
     bill = 12
     print("you have to pay 12$")
-
 else:
   print("Sorry You have to grow taller to get the ride")
 Wants_photo = input("If you want photos press Y :")
