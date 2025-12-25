@@ -17,3 +17,8 @@ print(random_0_1)
 # this generates random float numbers between the numbers
 random_float = random.uniform(1,10)
 print(random_float)
+dice = random.randint(0,1)
+if dice == 0:
+  print("Heads")
+else:
+  print("Tail")
