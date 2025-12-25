@@ -11,3 +11,9 @@ else:
   print("Loser!")
   # here we printed the number we added in our mymodule file
 print(MyModule.my_module)
+# this generates random numbers between 0 and 1
+random_0_1 = random.random()
+print(random_0_1)
+# this generates random float numbers between the numbers
+random_float = random.uniform(1,10)
+print(random_float)
