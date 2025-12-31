@@ -7,5 +7,7 @@ for number in range(1,11):
 #now this will print numbers from 1 to 10
 for number in range(1,11,3):
   print(number)
+total = 0
 for number in range(1,101):
-  print(number)
+  total += number
+  print(total)
