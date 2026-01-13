@@ -25,3 +25,4 @@ def turn_around():
     move()
 
 turn_around()
+# function is used to make the code more readable and easy
