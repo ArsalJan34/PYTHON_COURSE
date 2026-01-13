@@ -39,3 +39,9 @@ for char in range(0, nr_symbols):
 print(password_list)
 random.shuffle(password_list)
 print(password_list)
+# now we will convert it into an string using for loop
+# creating an empty variable called password here
+password = ""
+for char in password_list:
+  password += char
+  print(f"Your password is : {password}")
