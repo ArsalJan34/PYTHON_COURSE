@@ -51,3 +51,16 @@ turn_right()
 move()
 turn_right()
 move()
+
+# here we use jump  by creating an jump function
+def jump():
+move()
+turn_left()
+move()
+turn_right()
+move()
+turn_right()
+move()
+turn_left()
+
+# and write jump 6 times
