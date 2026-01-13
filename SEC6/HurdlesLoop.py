@@ -64,3 +64,23 @@ move()
 turn_left()
 
 # and write jump 6 times
+# or we can write an for loop
+# like this
+def turn_right():
+ turn_left()
+ turn_left()
+ turn_left()
+
+def jump():
+ move()
+ turn_left()
+ move()
+ turn_right()
+ move()
+ turn_right()
+ move()
+ turn_left()
+
+
+for step in range(6):
+  jump()
