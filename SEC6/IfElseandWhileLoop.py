@@ -4,17 +4,16 @@ def turn_right():
  turn_left()
 
 def jump():
-#  we are going to remove the move function first move function because it if there is a wall it will still move
-#  move()
+
  turn_left()
- move()
+ while wall_on_right():
+   move()
  turn_right()
  move()
  turn_right()
- move()
+ while front_is_clear():
+  move()
  turn_left()
-
-
 while not at_goal():
   if wall_in_front():
    jump()
