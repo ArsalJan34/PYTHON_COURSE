@@ -33,3 +33,4 @@ while not at_goal():
 # we use it for only when we need it many many times when the goal is completed
 # in simple words A while loop in Python is used to repeat a block of code as long as a given condition is True.
 # The loop keeps running until the condition becomes False.
+# when the false is not existing it will become an infinite loop
