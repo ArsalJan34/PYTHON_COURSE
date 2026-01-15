@@ -29,3 +29,7 @@ while number_of_hurdles > 0:
 while not at_goal():
    jump()
 # when it reaches the goal the loop will stop or it will keep repeating
+# we use while loop when we dont really care what number of sequence you are in
+# we use it for only when we need it many many times when the goal is completed
+# in simple words A while loop in Python is used to repeat a block of code as long as a given condition is True.
+# The loop keeps running until the condition becomes False.
