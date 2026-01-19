@@ -26,5 +26,7 @@ guess = input("Enter a letter: ").lower()
 # Check if letter is in the word
 if guess in chosen_word:
     print("Right")
+
 else:
     print("Wrong")
+
