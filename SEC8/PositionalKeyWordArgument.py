@@ -6,6 +6,8 @@ def greet_with(name, location):
 greet_with("arsal", "new york")
 # or
 # greet_with(name:"arsal", location:"new york")
+# keyword arguments
+greet_with(name="arsal",location="new york")
 
 # KEY Arguments
 def my_function(a,b,c):
