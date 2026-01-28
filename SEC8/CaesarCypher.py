@@ -13,3 +13,5 @@ def encrypt(orignalText, shiftAmount):
     shiftedPosition = alphabet.index(letter) + shift_amount
     cipherText += alphabet[shiftedPosition]
   print(f"Here is the encoded result: {cipherText}")
+
+encrypt(orignalText=text, shiftAmount=shift)
