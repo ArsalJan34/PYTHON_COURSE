@@ -10,7 +10,9 @@ shift = int(input("Type the shift number: \n"))
 def encrypt(orignalText, shiftAmount):
   cipherText = ""
   for letter in orignalText:
-    shiftedPosition = alphabet.index(letter) + shift_amount
+    shiftedPosition = alphabet.index(letter) + shiftAmount
+    # here we assigned old shiftedPosition to modulo of alphabet length
+    shiftedPosition = shiftedPosition % len(alphabet)
     cipherText += alphabet[shiftedPosition]
   print(f"Here is the encoded result: {cipherText}")
 
