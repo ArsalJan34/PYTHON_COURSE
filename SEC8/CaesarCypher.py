@@ -1,6 +1,6 @@
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
             'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-direction = input("Type 'enocode' to encrypt, type 'decode' to decrypt:\n").lower()
+direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower()
 text = input("Type your message: \n").lower()
 shift = int(input("Type the shift number: \n"))
 
@@ -15,5 +15,14 @@ def encrypt(orignalText, shiftAmount):
     shiftedPosition = shiftedPosition % len(alphabet)
     cipherText += alphabet[shiftedPosition]
   print(f"Here is the encoded result: {cipherText}")
-
 encrypt(orignalText=text, shiftAmount=shift)
+
+def decrypt(orignalText, shiftAmount):
+  cipherText2 = ""
+  for letter in orignalText:
+    shiftedPosition = alphabet.index(letter) - shiftAmount
+    shiftedPosition % len(alphabet)
+    cipherText2 += alphabet[shiftedPosition]
+
+  print(f"Here is the encoded result: {cipherText2}")
+decrypt(orignalText=text, shiftAmount=shift)
