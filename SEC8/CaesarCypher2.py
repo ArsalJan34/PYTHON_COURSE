@@ -27,3 +27,16 @@ def decrypt(originalText, shiftAmount):
   print(f"Here is the encoded result: {cipherText2}")
 decrypt(originalText=text, shiftAmount=shift)
 
+
+def caesar(originalText, shiftamount, encode_or_decode):
+  cipherText2 = ""
+  for letter in originalText:
+
+    if encode_or_decode == "decode":
+        shiftamount *= -1
+    shiftedPosition = alphabet.index(letter) - shiftAmount
+    shiftedPosition % len(alphabet)
+    cipherText2 += alphabet[shiftedPosition]
+
+  print(f"Here is the encoded result: {cipherText2}")
+decrypt(originalText=text, shiftAmount=shift)
