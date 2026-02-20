@@ -11,5 +11,14 @@ programing_dictionaries["Comment"] = "A block or line of code which is not execu
 print(programing_dictionaries)
 
 # emptying a dictionary
-programing_dictionaries = {}
+# programing_dictionaries = {}
+# print(programing_dictionaries)
+
+# Editing a key in dictionary
+programing_dictionaries["Bug"] = "A bug is a moth in your dictionary if you didnt fix it it will burn it self"
 print(programing_dictionaries)
+
+# Loop through
+for Keys in programing_dictionaries:
+  print(Keys)
+  print(programing_dictionaries[Keys])
