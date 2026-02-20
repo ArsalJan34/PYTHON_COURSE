@@ -9,3 +9,7 @@ print(programing_dictionaries["Bug"])
 
 programing_dictionaries["Comment"] = "A block or line of code which is not executed in output"
 print(programing_dictionaries)
+
+# emptying a dictionary
+programing_dictionaries = {}
+print(programing_dictionaries)
