@@ -28,4 +28,5 @@ travel_log = {
   }
 
 }
-print(travel_log["Germany"])
+# we want to get humburg from dictionary
+print(travel_log["Germany"]["cities_visited"][2])
